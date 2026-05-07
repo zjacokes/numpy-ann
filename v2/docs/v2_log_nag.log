@@ -1,0 +1,172 @@
+Loading dataset from tiny-imagenet-200/train...
+Loaded 100000 images in 326.2s
+Split: 80000 train / 10000 val / 10000 test
+
+Training with NAG | dtype=float64 | dropout=0.3 | lr=0.01 (cosine decay) | patience=15
+
+Epoch   1/150 | lr=1.00e-02 | Train Loss: 5.3499, Train Acc: 0.68% | Val Loss: 5.2721, Val Acc: 1.16%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch   2/150 | lr=1.00e-02 | Train Loss: 5.2599, Train Acc: 1.06% | Val Loss: 5.2164, Val Acc: 1.75%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch   3/150 | lr=1.00e-02 | Train Loss: 5.2140, Train Acc: 1.51% | Val Loss: 5.1524, Val Acc: 2.41%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch   4/150 | lr=9.99e-03 | Train Loss: 5.1562, Train Acc: 1.96% | Val Loss: 5.0853, Val Acc: 3.07%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch   5/150 | lr=9.98e-03 | Train Loss: 5.1044, Train Acc: 2.29% | Val Loss: 5.0271, Val Acc: 3.54%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch   6/150 | lr=9.97e-03 | Train Loss: 5.0524, Train Acc: 2.50% | Val Loss: 4.9688, Val Acc: 3.76%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch   7/150 | lr=9.96e-03 | Train Loss: 5.0017, Train Acc: 2.89% | Val Loss: 4.9147, Val Acc: 4.50%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch   8/150 | lr=9.95e-03 | Train Loss: 4.9513, Train Acc: 3.18% | Val Loss: 4.8588, Val Acc: 4.81%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch   9/150 | lr=9.93e-03 | Train Loss: 4.9103, Train Acc: 3.47% | Val Loss: 4.8160, Val Acc: 5.28%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  10/150 | lr=9.91e-03 | Train Loss: 4.8731, Train Acc: 3.70% | Val Loss: 4.7843, Val Acc: 5.42%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  11/150 | lr=9.89e-03 | Train Loss: 4.8418, Train Acc: 3.94% | Val Loss: 4.7497, Val Acc: 5.69%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  12/150 | lr=9.87e-03 | Train Loss: 4.8112, Train Acc: 4.27% | Val Loss: 4.7278, Val Acc: 5.96%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  13/150 | lr=9.84e-03 | Train Loss: 4.7809, Train Acc: 4.52% | Val Loss: 4.6981, Val Acc: 6.16%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  14/150 | lr=9.82e-03 | Train Loss: 4.7591, Train Acc: 4.73% | Val Loss: 4.6772, Val Acc: 6.45%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  15/150 | lr=9.79e-03 | Train Loss: 4.7346, Train Acc: 4.91% | Val Loss: 4.6512, Val Acc: 6.70%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  16/150 | lr=9.76e-03 | Train Loss: 4.7189, Train Acc: 5.01% | Val Loss: 4.6356, Val Acc: 6.67%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  17/150 | lr=9.72e-03 | Train Loss: 4.6953, Train Acc: 5.32% | Val Loss: 4.6204, Val Acc: 7.05%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  18/150 | lr=9.69e-03 | Train Loss: 4.6741, Train Acc: 5.58% | Val Loss: 4.5989, Val Acc: 7.44%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  19/150 | lr=9.65e-03 | Train Loss: 4.6583, Train Acc: 5.70% | Val Loss: 4.5807, Val Acc: 7.45%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  20/150 | lr=9.61e-03 | Train Loss: 4.6339, Train Acc: 5.91% | Val Loss: 4.5626, Val Acc: 7.81%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  21/150 | lr=9.57e-03 | Train Loss: 4.6177, Train Acc: 6.32% | Val Loss: 4.5508, Val Acc: 8.02%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  22/150 | lr=9.52e-03 | Train Loss: 4.6035, Train Acc: 6.34% | Val Loss: 4.5403, Val Acc: 7.84%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  23/150 | lr=9.48e-03 | Train Loss: 4.5924, Train Acc: 6.49% | Val Loss: 4.5290, Val Acc: 7.93%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  24/150 | lr=9.43e-03 | Train Loss: 4.5706, Train Acc: 6.72% | Val Loss: 4.5134, Val Acc: 8.35%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  25/150 | lr=9.38e-03 | Train Loss: 4.5566, Train Acc: 6.93% | Val Loss: 4.4963, Val Acc: 8.23%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  26/150 | lr=9.33e-03 | Train Loss: 4.5402, Train Acc: 7.11% | Val Loss: 4.4863, Val Acc: 8.46%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  27/150 | lr=9.28e-03 | Train Loss: 4.5279, Train Acc: 7.32% | Val Loss: 4.4759, Val Acc: 8.94%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  28/150 | lr=9.22e-03 | Train Loss: 4.5105, Train Acc: 7.44% | Val Loss: 4.4713, Val Acc: 8.68%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  29/150 | lr=9.16e-03 | Train Loss: 4.4969, Train Acc: 7.66% | Val Loss: 4.4589, Val Acc: 8.94%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  30/150 | lr=9.11e-03 | Train Loss: 4.4794, Train Acc: 7.76% | Val Loss: 4.4523, Val Acc: 9.02%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  31/150 | lr=9.05e-03 | Train Loss: 4.4679, Train Acc: 7.87% | Val Loss: 4.4374, Val Acc: 9.35%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  32/150 | lr=8.98e-03 | Train Loss: 4.4547, Train Acc: 7.97% | Val Loss: 4.4276, Val Acc: 9.28%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  33/150 | lr=8.92e-03 | Train Loss: 4.4367, Train Acc: 8.29% | Val Loss: 4.4238, Val Acc: 9.36%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  34/150 | lr=8.85e-03 | Train Loss: 4.4261, Train Acc: 8.34% | Val Loss: 4.4160, Val Acc: 9.33%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  35/150 | lr=8.79e-03 | Train Loss: 4.4116, Train Acc: 8.62% | Val Loss: 4.4106, Val Acc: 9.53%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  36/150 | lr=8.72e-03 | Train Loss: 4.3981, Train Acc: 8.66% | Val Loss: 4.3999, Val Acc: 9.82%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  37/150 | lr=8.64e-03 | Train Loss: 4.3906, Train Acc: 8.89% | Val Loss: 4.3878, Val Acc: 9.78%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  38/150 | lr=8.57e-03 | Train Loss: 4.3784, Train Acc: 8.89% | Val Loss: 4.3861, Val Acc: 9.52%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  39/150 | lr=8.50e-03 | Train Loss: 4.3643, Train Acc: 9.16% | Val Loss: 4.3711, Val Acc: 9.83%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  40/150 | lr=8.42e-03 | Train Loss: 4.3512, Train Acc: 9.24% | Val Loss: 4.3709, Val Acc: 9.65%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  41/150 | lr=8.35e-03 | Train Loss: 4.3418, Train Acc: 9.30% | Val Loss: 4.3615, Val Acc: 9.84%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  42/150 | lr=8.27e-03 | Train Loss: 4.3262, Train Acc: 9.52% | Val Loss: 4.3592, Val Acc: 9.94%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  43/150 | lr=8.19e-03 | Train Loss: 4.3183, Train Acc: 9.59% | Val Loss: 4.3474, Val Acc: 10.06%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  44/150 | lr=8.11e-03 | Train Loss: 4.3011, Train Acc: 9.85% | Val Loss: 4.3427, Val Acc: 10.07%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  45/150 | lr=8.02e-03 | Train Loss: 4.2898, Train Acc: 9.77% | Val Loss: 4.3414, Val Acc: 9.99%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  46/150 | lr=7.94e-03 | Train Loss: 4.2776, Train Acc: 10.20% | Val Loss: 4.3350, Val Acc: 10.40%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  47/150 | lr=7.85e-03 | Train Loss: 4.2664, Train Acc: 10.23% | Val Loss: 4.3321, Val Acc: 10.23%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  48/150 | lr=7.77e-03 | Train Loss: 4.2582, Train Acc: 10.39% | Val Loss: 4.3313, Val Acc: 10.31%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  49/150 | lr=7.68e-03 | Train Loss: 4.2421, Train Acc: 10.57% | Val Loss: 4.3219, Val Acc: 10.40%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  50/150 | lr=7.59e-03 | Train Loss: 4.2316, Train Acc: 10.62% | Val Loss: 4.3223, Val Acc: 10.28%
+Epoch  51/150 | lr=7.50e-03 | Train Loss: 4.2186, Train Acc: 10.83% | Val Loss: 4.3099, Val Acc: 10.42%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  52/150 | lr=7.41e-03 | Train Loss: 4.2100, Train Acc: 10.83% | Val Loss: 4.3123, Val Acc: 10.30%
+Epoch  53/150 | lr=7.32e-03 | Train Loss: 4.1993, Train Acc: 11.05% | Val Loss: 4.3031, Val Acc: 10.35%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  54/150 | lr=7.22e-03 | Train Loss: 4.1873, Train Acc: 11.38% | Val Loss: 4.3040, Val Acc: 10.70%
+Epoch  55/150 | lr=7.13e-03 | Train Loss: 4.1773, Train Acc: 11.39% | Val Loss: 4.2918, Val Acc: 10.74%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  56/150 | lr=7.03e-03 | Train Loss: 4.1627, Train Acc: 11.45% | Val Loss: 4.2899, Val Acc: 10.56%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  57/150 | lr=6.94e-03 | Train Loss: 4.1574, Train Acc: 11.71% | Val Loss: 4.2910, Val Acc: 10.38%
+Epoch  58/150 | lr=6.84e-03 | Train Loss: 4.1456, Train Acc: 11.65% | Val Loss: 4.2866, Val Acc: 10.65%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  59/150 | lr=6.74e-03 | Train Loss: 4.1326, Train Acc: 11.77% | Val Loss: 4.2802, Val Acc: 10.82%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  60/150 | lr=6.64e-03 | Train Loss: 4.1232, Train Acc: 11.96% | Val Loss: 4.2847, Val Acc: 10.76%
+Epoch  61/150 | lr=6.55e-03 | Train Loss: 4.1140, Train Acc: 11.97% | Val Loss: 4.2813, Val Acc: 10.81%
+Epoch  62/150 | lr=6.45e-03 | Train Loss: 4.0972, Train Acc: 12.15% | Val Loss: 4.2823, Val Acc: 11.16%
+Epoch  63/150 | lr=6.34e-03 | Train Loss: 4.0921, Train Acc: 12.34% | Val Loss: 4.2799, Val Acc: 10.77%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  64/150 | lr=6.24e-03 | Train Loss: 4.0792, Train Acc: 12.46% | Val Loss: 4.2713, Val Acc: 10.95%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  65/150 | lr=6.14e-03 | Train Loss: 4.0647, Train Acc: 12.71% | Val Loss: 4.2755, Val Acc: 10.91%
+Epoch  66/150 | lr=6.04e-03 | Train Loss: 4.0566, Train Acc: 12.73% | Val Loss: 4.2724, Val Acc: 10.94%
+Epoch  67/150 | lr=5.94e-03 | Train Loss: 4.0477, Train Acc: 12.84% | Val Loss: 4.2688, Val Acc: 11.01%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  68/150 | lr=5.83e-03 | Train Loss: 4.0334, Train Acc: 12.99% | Val Loss: 4.2659, Val Acc: 11.04%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  69/150 | lr=5.73e-03 | Train Loss: 4.0229, Train Acc: 13.18% | Val Loss: 4.2666, Val Acc: 11.14%
+Epoch  70/150 | lr=5.63e-03 | Train Loss: 4.0151, Train Acc: 13.25% | Val Loss: 4.2639, Val Acc: 11.17%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  71/150 | lr=5.52e-03 | Train Loss: 4.0054, Train Acc: 13.40% | Val Loss: 4.2665, Val Acc: 11.14%
+Epoch  72/150 | lr=5.42e-03 | Train Loss: 3.9943, Train Acc: 13.37% | Val Loss: 4.2637, Val Acc: 11.10%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  73/150 | lr=5.31e-03 | Train Loss: 3.9866, Train Acc: 13.59% | Val Loss: 4.2658, Val Acc: 10.98%
+Epoch  74/150 | lr=5.21e-03 | Train Loss: 3.9736, Train Acc: 13.88% | Val Loss: 4.2639, Val Acc: 10.99%
+Epoch  75/150 | lr=5.11e-03 | Train Loss: 3.9558, Train Acc: 13.95% | Val Loss: 4.2641, Val Acc: 11.25%
+Epoch  76/150 | lr=5.00e-03 | Train Loss: 3.9542, Train Acc: 14.01% | Val Loss: 4.2609, Val Acc: 10.94%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  77/150 | lr=4.90e-03 | Train Loss: 3.9349, Train Acc: 14.40% | Val Loss: 4.2570, Val Acc: 11.14%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  78/150 | lr=4.79e-03 | Train Loss: 3.9321, Train Acc: 14.40% | Val Loss: 4.2611, Val Acc: 11.26%
+Epoch  79/150 | lr=4.69e-03 | Train Loss: 3.9159, Train Acc: 14.55% | Val Loss: 4.2542, Val Acc: 11.20%
+Weights saved to v2/results/v2_weights_nag.json
+Epoch  80/150 | lr=4.58e-03 | Train Loss: 3.9080, Train Acc: 14.65% | Val Loss: 4.2615, Val Acc: 11.29%
+Epoch  81/150 | lr=4.48e-03 | Train Loss: 3.8994, Train Acc: 14.80% | Val Loss: 4.2567, Val Acc: 11.37%
+Epoch  82/150 | lr=4.37e-03 | Train Loss: 3.8895, Train Acc: 14.76% | Val Loss: 4.2557, Val Acc: 10.87%
+Epoch  83/150 | lr=4.27e-03 | Train Loss: 3.8756, Train Acc: 14.90% | Val Loss: 4.2587, Val Acc: 11.32%
+Epoch  84/150 | lr=4.17e-03 | Train Loss: 3.8711, Train Acc: 15.05% | Val Loss: 4.2570, Val Acc: 11.21%
+Epoch  85/150 | lr=4.06e-03 | Train Loss: 3.8568, Train Acc: 15.37% | Val Loss: 4.2579, Val Acc: 11.06%
+Epoch  86/150 | lr=3.96e-03 | Train Loss: 3.8433, Train Acc: 15.35% | Val Loss: 4.2622, Val Acc: 11.25%
+Epoch  87/150 | lr=3.86e-03 | Train Loss: 3.8343, Train Acc: 15.77% | Val Loss: 4.2605, Val Acc: 11.15%
+Epoch  88/150 | lr=3.76e-03 | Train Loss: 3.8282, Train Acc: 15.77% | Val Loss: 4.2626, Val Acc: 11.31%
+Epoch  89/150 | lr=3.66e-03 | Train Loss: 3.8079, Train Acc: 15.94% | Val Loss: 4.2615, Val Acc: 11.38%
+Epoch  90/150 | lr=3.56e-03 | Train Loss: 3.8051, Train Acc: 15.99% | Val Loss: 4.2665, Val Acc: 11.20%
+Epoch  91/150 | lr=3.46e-03 | Train Loss: 3.7894, Train Acc: 16.18% | Val Loss: 4.2703, Val Acc: 11.16%
+Epoch  92/150 | lr=3.36e-03 | Train Loss: 3.7860, Train Acc: 15.98% | Val Loss: 4.2648, Val Acc: 11.55%
+Epoch  93/150 | lr=3.26e-03 | Train Loss: 3.7735, Train Acc: 16.30% | Val Loss: 4.2657, Val Acc: 10.91%
+Epoch  94/150 | lr=3.16e-03 | Train Loss: 3.7588, Train Acc: 16.52% | Val Loss: 4.2702, Val Acc: 11.29%
+
+Early stopping at epoch 94 (no val improvement for 15 epochs).
+
+Best val loss: 4.2542. Best weights restored.
+
+Test accuracy: 12.18%
+Total training time: 48.6 min
+Curves saved to v2_curves_nag_float64.png

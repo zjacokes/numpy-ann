@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Data and weights -- too large for git
+tiny-imagenet-200/
+tiny-imagenet-200.zip
+*.npy
+model_weights.json
+training_curves.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
