@@ -202,8 +202,8 @@ The near-zero train/test gap in V2 (versus 58 percentage points in V1) is the cl
 
 <table>
   <tr>
-    <td><img src="v2/docs/training_curves_adam.png" width="100%"/></td>
-    <td><img src="v2/docs/training_curves_nag.png" width="100%"/></td>
+    <td><img src="v2/docs/v2_curves_adam.png" width="100%"/></td>
+    <td><img src="v2/docs/v2_curves_nag.png" width="100%"/></td>
   </tr>
   <tr>
     <td align="center"><em>Adam — 14.76% test accuracy, 150 epochs</em></td>
