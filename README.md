@@ -80,17 +80,20 @@ These two bugs together meant the model was undertrained relative to what the ar
 
 ```
 v1/
-├── src/
-│   ├── model.py          # HeThreeLayerNN class
-│   ├── ops.py            # ReLU, softmax, cross-entropy + L2 loss
-│   ├── data.py           # Tiny ImageNet loading and preprocessing
-│   ├── weights.py        # JSON weight serialization
-│   ├── train.py          # Training entry point
-│   └── test.py           # Evaluation entry point (the graded deliverable)
+├── docs/
+│   ├── analysis.pdf      # Original written report
+│   ├── training_curves.png
+│   └── v1_train.log      # Log file of V1 training
 ├── notebooks/
 │   └── exploration.ipynb # Original exploratory notebook with all baselines
-├── docs/
-│   └── analysis.pdf      # Original written report
+├── src/
+│   ├── data.py           # Tiny ImageNet loading and preprocessing
+│   ├── model.py          # HeThreeLayerNN class
+│   ├── ops.py            # ReLU, softmax, cross-entropy + L2 loss
+│   ├── run_v1.slurm      # Slurm script for submitting original job
+│   ├── test.py           # Evaluation entry point (the graded deliverable)
+│   ├── train.py          # Training entry point
+│   └── weights.py        # JSON weight serialization
 └── requirements.txt
 ```
 
@@ -212,23 +215,25 @@ The near-zero train/test gap in V2 (versus 58 percentage points in V1) is the cl
 
 ```
 v2/
-├── src/
-│   ├── model.py          # Same MLP architecture, adds dropout
-│   ├── ops.py            # Activation functions, loss, dropout op
-│   ├── optim.py          # Adam and NAG as standalone optimizer classes
-│   ├── data.py           # Data loading + horizontal flip augmentation
-│   ├── schedule.py       # Cosine learning rate decay
-│   ├── weights.py        # JSON weight serialization (unchanged)
-│   ├── train.py          # Training loop with optimizer/schedule flags
-│   └── test.py           # Evaluation entry point
-├── tests/
-│   └── gradient_check.py # Numerical gradient verification via autograd
-├── experiments/
-│   └── precision_comparison.py  # float32 vs float64 timing and accuracy
-├── notebooks/
-│   └── results.ipynb     # Optimizer comparison plots, convergence curves
 ├── docs/
-│   └── analysis.pdf      # Updated written report
+│   ├── v2_curves_adam.png      
+│   ├── v2_curves_nag.png
+│   ├── v2_log_adam.log          # Log file of V2 Adam training
+│   └── v2_log_nag.log           # Log file of V2 Nag training
+├── src/
+│   ├── data.py                  # Data loading + horizontal flip augmentation
+│   ├── model.py                 # Same MLP architecture, adds dropout
+│   ├── ops.py                   # Activation functions, loss, dropout op
+│   ├── optim.py                 # Adam and NAG as standalone optimizer classes
+│   ├── run_v2_adam.slurm        # Slurm script for submitting Adam job
+│   ├── run_v2_nag.slurm         # Slurm script for submitting NAG job
+│   ├── schedule.py              # Cosine learning rate decay
+│   ├── test.py                  # Evaluation entry point
+│   ├── train.py                 # Training loop with optimizer/schedule flags
+│   └── weights.py               # JSON weight serialization (unchanged)
+├── tests/
+│   ├── gradient_check.py        # Numerical gradient verification via autograd
+│   └── precision_comparison.py  # float32 vs float64 timing and accuracy
 └── requirements.txt
 ```
 
